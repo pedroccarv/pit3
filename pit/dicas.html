@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="dicas.css">
+
+    <title>Formulário do Médico</title>
+<body>
+    <h1>Formulário do Médico</h1>
+    <form id="medicoForm">
+        <label for="foto">Foto:</label>
+        <input type="file" id="foto" accept="image/*"><br><br>
+        
+        <label for="texto">Texto:</label><br>
+        <textarea id="texto" placeholder="Digite seu texto aqui"></textarea><br><br>
+        
+        <button type="button" onclick="adicionarFotosETextos()">Adicionar</button>
+    </form>
+    <h2>Fotos e Textos Adicionados:</h2>
+    <ul id="listaFotosETextos"></ul>
+
+    <script src="dicas.js"></script>
+</body>
+</html>

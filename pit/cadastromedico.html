@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Cadastro medico</title>
+	<link rel="stylesheet" type="text/css" href="cadastromedico.css">
+</head>
+<body>
+    <form>
+        
+        <input type="text" id="crn" name="crn">
+        <label for="crn">CRN:</label>
+
+          <input type="text" id="nome" name="nome">
+          <label for="nome">Nome:</label>
+  
+          <input type="email" id="email" name="email">
+          <label for="nome">Email:</label>
+  
+          <input type="tel" id="telefone" name="telefone">
+          <label for="nome">telefone:</label>
+  
+          <input type="password" id="senha" name="senha"> 
+          <label for="nome">senha:</label>
+
+          <button type="button" onclick="showPassword()">mostrar senha</button>
+          <button type="button" onclick="hidePassword()">ocultar senha</button>
+          <button type="submit">Cadastrar</button>
+        </form>
+	<script src="cadastromedico.js"></script>
+</body>
+</html>
